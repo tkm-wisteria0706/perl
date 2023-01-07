@@ -1,0 +1,17 @@
+- # sample GET
+  request:
+    url: /curry
+    method: GET
+  response:
+    status: 200
+    body: '{ result: "ゲットカレー" }'
+
+- # sample POST
+  request:
+    url: /
+    method: POST
+    body:
+      food: "curry"
+  response:
+    status: 200
+    body: '{ result: "ポストカレー" }'
