@@ -12,4 +12,5 @@ if(ref($var) eq 'ARRAY') {
   print("\n失敗\n");
 }
 
-#このコメントは、release/new_fileにfix/new_fileをマージした際にどうなるのかを検証するブランチになります。
+# このコメントは、release/new_fileにfix/new_fileをマージした際にどうなるのかを検証するブランチになります。
+# マージ後にこのコメントを追記して、どういう変化があるのかを確かめます
