@@ -17,3 +17,4 @@ push(@$array3, @$array4);
 foreach my $t (@$array3) {
   print Dumper($t);
 }
+//コメント
